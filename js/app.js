@@ -31,6 +31,7 @@ class Enemy {
             // Once it goes off-screen it also has the possiblity of switching lanes.
             this.y = [60, 140, 225].randomElement();
         }
+        // Creating an area around the player, if the bug goes in it the player will die.
         let collisonMinX,
             collisonMaxX,
             collisonMinY,
